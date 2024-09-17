@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button0"
+        style="@style/Numbers"
+        android:layout_width="60dp"
+        android:layout_height="150dp"
+        android:text="@string/_0"
+        android:textSize="16sp"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonComa"
+        app:layout_constraintEnd_toStartOf="@+id/buttonPorcentaje"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button6"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/Numbers"
+        android:layout_width="55dp"
+        android:layout_height="58dp"
+        android:text="@string/_1"
+        android:textSize="16sp"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Numbers"
+        android:layout_width="55dp"
+        android:layout_height="58dp"
+        android:text="@string/_2"
+        android:textSize="16sp"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button1"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/Numbers"
+        android:layout_width="55dp"
+        android:layout_height="58dp"
+        android:text="@string/_3"
+        android:textSize="16sp"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toStartOf="@+id/button0"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonMulti"
+        style="@style/Operator"
+        android:layout_width="55dp"
+        android:layout_height="58dp"
+        android:text="@string/Multiplicacion"
+        android:textSize="16sp"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonIgual"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonComa"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDivision"
+        tools:ignore="MissingConstraints,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/buttonPorcentaje"
+        style="@style/Operator"
+        android:layout_width="58dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="96dp"
+        android:text="@string/Porcentaje"
+        android:textSize="16sp"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonDivision"
+        app:layout_constraintEnd_toStartOf="@+id/buttonSumar"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button0"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAC"
+        tools:ignore="MissingConstraints,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/buttonDivision"
+        style="@style/Operator"
+        android:layout_width="55dp"
+        android:layout_height="58dp"
+        android:text="@string/Division"
+        android:textSize="16sp"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonMulti"
+        app:layout_constraintEnd_toStartOf="@+id/buttonRestar"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button0"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPorcentaje"
+        tools:ignore="MissingConstraints,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/button5"
+        style="@style/Numbers"
+        android:layout_width="55dp"
+        android:layout_height="58dp"
+        android:text="@string/_5"
+        android:textSize="16sp"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/button8"
+        app:layout_constraintEnd_toStartOf="@+id/button6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button6"
+        style="@style/Numbers"
+        android:layout_width="55dp"
+        android:layout_height="58dp"
+        android:text="@string/_6"
+        android:textSize="16sp"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/button9"
+        app:layout_constraintEnd_toStartOf="@+id/button0"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/Numbers"
+        android:layout_width="55dp"
+        android:layout_height="58dp"
+        android:text="@string/_4"
+        android:textSize="16sp"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/button7"
+        app:layout_constraintEnd_toStartOf="@+id/button5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button1"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button7"
+        style="@style/Numbers"
+        android:layout_width="55dp"
+        android:layout_height="58dp"
+        android:text="@string/_7"
+        android:textSize="16sp"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button8"
+        style="@style/Numbers"
+        android:layout_width="55dp"
+        android:layout_height="58dp"
+        android:text="@string/_8"
+        android:textSize="16sp"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button9"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button7"
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button9"
+        style="@style/Numbers"
+        android:layout_width="55dp"
+        android:layout_height="58dp"
+        android:text="@string/_9"
+        android:textSize="16sp"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonComa"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button8"
+        app:layout_constraintTop_toBottomOf="@+id/button6"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonRestar"
+        style="@style/Operator"
+        android:layout_width="55dp"
+        android:layout_height="58dp"
+        android:text="@string/Restar"
+        android:textSize="16sp"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonIgual"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonDivision"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSumar"
+        tools:ignore="MissingConstraints,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/buttonSumar"
+        style="@style/Operator"
+        android:layout_width="55dp"
+        android:layout_height="58dp"
+        android:text="@string/Suma"
+        android:textSize="16sp"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonRestar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.664"
+        app:layout_constraintStart_toEndOf="@+id/buttonPorcentaje"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAC"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/buttonComa"
+        style="@style/Numbers"
+        android:layout_width="55dp"
+        android:layout_height="58dp"
+        android:text="@string/coma"
+        android:textSize="20sp"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonMulti"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button9"
+        app:layout_constraintTop_toBottomOf="@+id/button0"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonIgual"
+        style="@style/Operator"
+        android:layout_width="55dp"
+        android:layout_height="58dp"
+        android:text="@string/Igual"
+        android:textSize="20sp"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonMulti"
+        app:layout_constraintTop_toBottomOf="@+id/buttonRestar"
+        tools:ignore="MissingConstraints,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/buttonAC"
+        style="@style/Operator"
+        android:layout_width="158dp"
+        android:layout_height="59dp"
+        android:text="@string/AC"
+        android:textSize="16sp"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonPorcentaje"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonSumar"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/editTextText"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,DuplicateSpeakableTextCheck,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="289dp"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/Texto"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/button1"
+        app:layout_constraintEnd_toStartOf="@+id/buttonAC"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Autofill,LabelFor" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

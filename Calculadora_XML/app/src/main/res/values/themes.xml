@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Calculadora" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Calculadora" parent="Base.Theme.Calculadora" />
+
+    <style name="Numbers" parent="Base.Theme.Calculadora">
+        <!-- Customize your light theme here. -->
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:backgroundTint">#434242</item>
+    </style>
+
+    <style name="Operator" parent="Base.Theme.Calculadora">
+        <!-- Customize your light theme here. -->
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:backgroundTint">#F49000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+
+</resources>
